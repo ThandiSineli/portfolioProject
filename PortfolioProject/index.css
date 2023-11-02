@@ -50,14 +50,17 @@ body{
 
 }
  /*my image*/
-.aboutimg {
+img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    height: 50%;
+    width: 60%;
+    height: 60%;
   }
 
+   h1 p{
+    color: #e6dddd;
+  }
   @media (max-width: 500px) {
   .aboutimg {
         width: 100%;
