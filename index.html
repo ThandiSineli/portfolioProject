@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-    crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <!-- Add these links to the <head> section of your HTML document -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
 
     <link rel="stylesheet" href="/PortfolioProject/index.css">
 </head>
@@ -34,7 +33,7 @@
 
         <!-- Home Page -->
         <!-- Home Page Main Container -->
-        <div class="container-fluid containerHome">
+        <div class="container- containerHome">
             <!-- Create a container-fluid to assist in container full size 100% -->
            
                 <!-- Create an ID -->
@@ -43,7 +42,7 @@
                     <div class="row ">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  my-text ">
                            <h2 class="my_title ">Hi, my name is Thandeka</h2>
-                            <p class="my_desc fixed-bottom ">I am an aspiring Software Developer</p>
+                            <p class="my_desc ">I am an aspiring Software Developer</p>
                         </div>
                 </section>
             </div>
@@ -59,7 +58,7 @@
                               <img src="https://i.postimg.cc/4dBKgXWF/20231009-135121.jpg" class="rounded-circle
                               " alt="">
                           </div>
-                          <div class="col-lg-8">
+                          <div class="col-lg-4">
                               <p>
                                   I am a highly motivated and ambitious individual with a passion for learning and self-improvement. 
                                   I have a strong work ethic and a positive attitude. I am always seeking new challenges and opportunities to grow both personally and professionally.
@@ -97,64 +96,167 @@
 
 
         <div><section id="education">
-            <div class="container text-center">
-                <h1 class="text-center">My Education</h1>
-
-            </div>
-            <div id="carouselExample" class="carousel slide">
-                <div class="carousel-inner text-center">
-                  <div class="carousel-item active">
-                    <div class="">
-                      <div class="carousal-item">
-                    <h2>High School</h2>
+            <div class="containerEducation text-center">
+                <h1 class="text-center">Education</h1>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                <div class="carousel-item">
+                  <img src="https://i.postimg.cc/x8wSgzfM/background-slide.jpg" alt=" ">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>High School</h5>
                     <ul>
-                        <li>Bellville Technical High</li>
-                        <li>Highest grade passed: Grade 12</li>
-                        <li>Year Obtained: 2018</li>
-                    </ul>
-                    </div>
+                      <li>Bellville Technical High</li>
+                      <li>Highest grade passed: Grade 12</li>
+                      <li>Year Obtained: 2018</li>
+                  </ul>
                   </div>
-                  <div class="carousel-item">
-                    
-                  
-                    <h2>Tertiary Education</h2>
+                </div>
+                <div class="carousel-item">
+                  <img src="https://i.postimg.cc/x8wSgzfM/background-slide.jpg" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Tertiary Education</h5>
                     <ul>
-                        <li>Tertiary Institution: Cape Peninsular University Of Technology</li>
-                        <li>Qualification: Operations Management</li>
-                        <li>Year of study: 3rd Year</li>
-                        <li>Modules Completed: 9</li>
-                    </ul>
+                      <li>Tertiary Institution: Cape Peninsular University Of Technology</li>
+                      <li>Qualification: Operations Management</li>
+                      <li>Year of study: 3rd Year</li>
+                      <li>Modules Completed: 9</li>
+                  </ul>
                   </div>
-                  <div class="carousel-item">
-                    
-                    <h2>Coding Academy</h2>
-                    
-
+                </div>
+                <div class="carousel-item">
+                  <img src="https://i.postimg.cc/x8wSgzfM/background-slide.jpg" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Coding Academy</h5>
                     <ul>
                       <li>Institution: LifeChoices Academy</li>
                       <li>Course: FullStack</li>
                       <li>Languages: HTML, CSS, Bootstap, Vue.JS, Javascript, Node.JS & MySQL</li>
                     </ul>
-                     
+                  </div>
                 </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div></section>
+            
+              
+        </section>
         </div>
 
         <div><section id="experience"> 
             <div class="container-fluid containerExperience">
-                <h1 class="text-center">My Experience</h1>
-
+                <h1 class="text-center">Experience</h1>
+                <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+                  
+                </div>
+                
+                <div class="card text-bg-light mb-3" style="max-width: 18rem;">
+                  <div class="card-header">Retail</div>
+                  <div class="card-body">
+                    <h5 class="card-title">Exact</h5>
+                    <p class="card-text">Fashion assistant</p>
+                  </div>
+                </div>
+                <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+                  <div class="card-header">CallCentre</div>
+                  <div class="card-body">
+                    <h5 class="card-title">TFG One2One Agent</h5>
+                    <p class="card-text">Customer service Agent.</p>
+                  </div>
+                </div>
             </div>
 
-                
+            <!-- Project done using cards-->
+
+            <section id="Projects" >
+              <div class= "container mt-3">
+                  <h1 class="text-center">Projects</h1>
+                  <div class="row">
+                      <div class="col-lg-3 mt-3">
+                          <div class="card">
+                              <img class="card-img-top" src="https://i.postimg.cc/W3qPT4t5/Screenshot-2023-11-02-113059.png" alt="" style="width:100%">
+                              <div class="card-body">
+                                  <h4 class="card-title">Netflix Clone</h4>
+                                  
+                                  <div class="text-center">
+                                      <a href="https://bejewelled-macaron-fcc30e.netlify.app/" class="btn btn-dark">Check it out.</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+      
+                      <div class="col-lg-3 mt-3">
+                          <div class="card portfolioContent">
+                              <img class="card-img-top" src="https://i.postimg.cc/CKyGmPkd/Screenshot-2023-11-02-115902.png" alt="Card image" style="width:100%">
+                              <div class="card-body">
+                            <h4 class="card-title">Mobicare Clone</h4>
+                        <div class="text-center">
+                                      <a href="https://charming-dasik-a02309.netlify.app/" class="btn btn-dark">Check it out.</a>
+                                  </div>
+                                  </div>
+                                </div>
+                            </div>
+      
+                      <div class="col-lg-3 mt-3">
+                          <div class="card portfolioContent">
+                              <img class="card-img-top" src="https://i.postimg.cc/nzSYYHkf/Screenshot-2023-11-02-112826.png" alt="Card image" style="width:100%">
+                              <div class="card-body">
+                                  <h4 class="card-title">E-commerce website</h4>
+                                 
+                                  <div class="text-center">
+                                      <a href="https://profound-bunny-31b73f.netlify.app/" class="btn btn-dark">Check it out</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <br>
+                  <div class="row">
+                      <div class="col-lg-3 mt-3">
+                          <div class="card portfolioContent">
+                              <img class="card-img-top" src="https://i.postimg.cc/QtwJ8BLY/2344247.png" alt="Card image" style="width:100%">
+                              <div class="card-body">
+                                  <h4 class="card-title">Calculator</h4>
+                               <div class="text-center">
+                                      <a href="https://symphonious-stroopwafel-77eea0.netlify.app" class="btn btn-dark">Check it out</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+      
+                     <div class="col-lg-3 mt-3">
+                          <div class="card portfolioContent">
+                              <img class="card-img-top" src="https://i.postimg.cc/8PBCdjp2/2263611.png" alt="Card image" style="width:100%">
+                              <div class="card-body">
+                                  <h4 class="card-title">Keyboard</h4>
+                                <div class="text-center">
+                                      <a href="https://melodious-pastelito-b75915.netlify.app" class="btn btn-dark">Check it out</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+          </section>
+
+              div><section id="Testimonials"> 
+                <div class="container-fluid containerExperience">
+                    <h1 class="text-center">Testimonials</h1>
+                 
+                </div>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

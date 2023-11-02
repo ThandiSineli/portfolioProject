@@ -1,23 +1,27 @@
 *{
     padding: 0%;
-    Margin:0 ;
+    Margin:0%;
 }
 
 body{
     background-color: #6D4F4B
 }
+
 /* Home */
 .my_title {
     font-size: 4.5rem;
 }
+
 .my_desc {
     font-size: 2rem;
 }
+
 
 .containerHome{
    width: 70rem;
    height: 50rem;
 }
+
 
 /* About Page */
 
@@ -38,15 +42,15 @@ body{
     height:100vh;
     background: url('https://i.postimg.cc/tTwv5LhL/smilegmi-young-african-girl-computer-programming-studio-ghibli-ba2bed1f-e1f8-4bb3-a532-798adae3b835.webp');
     background-size:cover;
-    position:relative;
+    position: absolute; 
     overflow: hidden;
     display: flex;
-    justify-content: center;
+    justify-content: flex;
     align-items: center;
     z-index: -1;
     background-attachment: fixed;
     width: 100%;
-
+    
 
 }
  /*my image*/
@@ -58,7 +62,7 @@ img{
     height: 60%;
   }
 
-   h1 p{
+   h1 h5 p{
     color: #e6dddd;
   }
   @media (max-width: 500px) {
@@ -68,45 +72,34 @@ img{
   }
 
   /*Education*/
+.education{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: rgb(243, 238, 238);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+
+}
   
   
-  .education{
-    margin-top: 0%;
-    margin-bottom: 0%;
-    margin-left: 0%;
-    margin-right: 0%;
-    padding: 0%;
-    background-color: rgb(255, 255, 255);
-    color: rgb(6, 6, 6);
-    text-align: center;
-    position: relative;
-  }
 
   .containerEducation{
-    width: 70rem;
-   height: 50rem
+    width: 40rem;
+   height: 30rem
+
 
   }
 
  
 
- .corouselslide{
-   text-align: center;
-   margin-left: auto;
-   margin-right: auto;
-   width: 50%;
-   height: 50%;
-   margin-top: 20px;
-   margin-bottom: 20px;
-   padding: 20px;
-   border: 1px solid rgb(204, 204, 204);
-
- }
+ 
+ 
 /*carousel*/
 
 .carousel-inner{
-    width: 50%;
-    height: 80%;
+    width: 20%;
+    height: 30%;
 }
 .carousel-control-next{
     right: 0;
