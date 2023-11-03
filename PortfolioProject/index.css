@@ -10,17 +10,11 @@ body{
 
 /* Home */
 
-.bg-darkq{
-   
-    background-color:rgb(97, 45, 45);
-    animation: delay;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: ease-in-out;
-}
+
+
 a:link{
-    color: #000;
+    color: #f0ebeb;
+
     
 }
 a:hover{
@@ -31,6 +25,9 @@ a:hover{
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
+}
+.text-body-emphasis {
+  color: #ece2e2;
 }
 .my_title {
     font-size: 4.5rem;
@@ -210,11 +207,11 @@ div i{
 	color: #818385;
 	line-height: 8px;
 }
-.container {
+/*container {
     width: 80%;
     margin: 0 auto;
     text-align: center;
-  }
+  }*/
   
   .contact {
     font-size: 40px;
@@ -240,7 +237,7 @@ div i{
   }
   
   input[type="submit"] {
-    background-color: #007BFF;
+    background-color: #0a0a0a;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -265,8 +262,6 @@ div i{
 	padding: 20px 0px 5px 0px;
     margin-top: 60px;
     margin-bottom: 80px;
-    height: auto;
-    size: auto;
     
 
 }
@@ -279,3 +274,11 @@ div i{
 	.footer p {
 		text-align: center;
 	}
+
+ 
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(12, 12, 12);
+    }
+  }
